@@ -1,0 +1,59 @@
+
+body,div,figure,aside{
+	margin: 0px;
+}
+
+.container{
+	background-color: #eee;
+	overflow: auto;
+	padding: 0 143px 0 263px;
+	margin: 20px;
+}
+
+.content{
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	height: 300px;
+	border: solid 1px #999;
+}
+
+figure{
+	width: 200px;
+	padding: 20px;
+	border: solid #999 1px;
+	background-color: #fff;
+	float: left;
+	margin-left: -100%;
+	position: relative;
+	left: -263px;
+}
+
+figure>img{
+	width: 80px;
+	height: 80px;
+}
+
+figure>figcaption{
+	float: right;
+}
+
+aside{
+	width: 80px;
+	padding: 20px;
+	border: solid 1px #999;
+	background-color: #fff;
+	float: left;
+	margin-left: -124px;
+	position: relative;
+	right: -143px;
+}
+
+aside img{
+	width: 80px;
+	height: 80px;
+	margin-top: 20px;
+}
+
+aside img:first-child{
+	margin-top: 0;

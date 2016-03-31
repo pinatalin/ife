@@ -1,0 +1,62 @@
+body,div{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container{
+	background-color: #eee;
+	width: 400px;
+	height: 200px;
+}
+
+
+.container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -200px;
+	overflow: hidden;
+}
+
+.circle{
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.circle:first-child{
+	top: -50px;
+	left: -50px;
+}
+
+.circle:last-child{
+	bottom: -50px;
+	right: -50px;
+}
+
+
+
+/*flex
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+*/
+
+
+
+
+
